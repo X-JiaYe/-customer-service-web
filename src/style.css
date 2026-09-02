@@ -1,0 +1,15 @@
+:root {
+  --bg: #f5f6f8; --panel: #ffffff; --border: #e3e5e9;
+  --brand: #2563eb; --brand-weak: #eaf1ff;
+  --text: #1f2328; --muted: #8a919c;
+  --user: #2563eb; --user-text: #ffffff;
+  --ok: #16a34a; --warn: #dc2626;
+}
+* { box-sizing: border-box; }
+html, body, #app { height: 100%; margin: 0; }
+body {
+  font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  background: var(--bg); color: var(--text);
+}
+button { font-family: inherit; }
+input, textarea { font-family: inherit; }
